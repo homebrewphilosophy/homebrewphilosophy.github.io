@@ -1,0 +1,200 @@
+@font-face {
+	font-family: "Eligible";
+	src:	url('fonts/Eligible-Bold-Italic.woff') format('woff'),
+			url('fonts/Eligible-Bold-Italic.woff2') format('woff2'),
+			url('fonts/Eligible-Bold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+@font-face {
+	font-family: "Eligible";
+	src:	url('fonts/Eligible-Italic.woff') format('woff'),
+			url('fonts/Eligible-Italic.woff2') format('woff2'),
+			url('fonts/Eligible-Italic.ttf') format('truetype');
+    font-style: italic, oblique;
+}
+@font-face {
+	font-family: "Eligible";
+	src:	url('fonts/Eligible-Bold.woff') format('woff'),
+			url('fonts/Eligible-Bold.woff2') format('woff2'),
+			url('fonts/Eligible-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+	font-family: "Eligible";
+	src:	url('fonts/Eligible-Regular.woff') format('woff'),
+			url('fonts/Eligible-Regular.woff2') format('woff2'),
+			url('fonts/Eligible-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Bebas Neue";
+	src:	url('fonts/BebasNeue-Regular.woff') format('woff'),
+			url('fonts/BebasNeue-Regular.woff2') format('woff2'),
+			url('fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+/****************************************************/
+
+body{
+	background-image: url("images/tree.svg"), linear-gradient(0deg, black 0%, grey 100%);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+	
+	font-family: "Eligible", serif;
+	font-size:18px;
+	font-weight:normal;
+	
+	line-height:1.3em;
+	color:white;
+	
+	margin:0;
+	padding:0;
+}
+
+/*
+body{
+	background-color:black;
+	background-image:
+	 linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(128,128,128,1) 100%),
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	background-attachment: fixed;
+	
+	font-family: "Eligible", serif;
+	font-size:18px;
+	font-weight:normal;
+	
+	line-height:1.3em;
+	color:white;
+	
+	margin:0;
+	padding:0;
+}
+
+.body-container{
+	background-image: url("images/tree.svg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+*/
+
+/****************************************************/
+
+.h1-container{
+	width:100%;
+	background:linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+h1{
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 80px;
+	font-weight: normal;
+	line-height: 1.6em;
+	
+	background: -webkit-linear-gradient(90deg, grey 30%, white 65%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	
+	margin: auto;
+	text-align: center;
+	white-space: nowrap;
+}
+
+footer{
+	margin: auto;
+	padding-bottom:30px;
+	font-size:12px;
+	text-align: center;
+}
+
+/****************************************************/
+
+.btn-group .left-border {
+	-webkit-mask-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255, 1));
+	background-color: rgba(0,0,0,0.5);
+	border-top: #e6e6e6 solid 2px;
+	border-bottom: #bfbfbf solid 2px;
+	border-right: none;
+	border-left: none;
+	color: rgba(0,0,0,0);
+	padding: 8px 60px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: "Bebas Neue", sans-serif;
+	float: left;
+}
+
+.btn-group .button {
+	background-color: rgba(0,0,0,0.5);
+	border-top: #e6e6e6 solid 2px;
+	border-bottom: #bfbfbf solid 2px;
+	border-right: none;
+	border-left: none;
+	color: white;
+	padding: 8px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: "Bebas Neue", sans-serif;
+	letter-spacing: 1px;
+	cursor: pointer;
+	float: left;
+}
+
+.btn-group .button:hover {
+	background-color: rgba(10,10,0,0.5);
+	border-top: #e6e600 solid 2px;
+	border-bottom: #bfbf00 solid 2px;
+	color: yellow;
+}
+
+.btn-group .right-border {
+	-webkit-mask-image: -webkit-linear-gradient(right, rgba(255,255,255,0), rgba(255,255,255, 1));
+	background-color: rgba(0,0,0,0.5);
+	border-top: #e6e6e6 solid 2px;
+	border-bottom: #bfbfbf solid 2px;
+	border-right: none;
+	border-left: none;
+	color: rgba(0,0,0,0);
+	padding: 8px 60px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: "Bebas Neue", sans-serif;
+	float: left;
+}
+
+/****************************************************/
+
+.center{
+	width: fit-content;
+	margin: auto;
+}
+
+.box-1{
+	background-color:rgba(0,0,0,0.5);
+	
+	border-top: #e6e6e6 solid 3px;
+	border-bottom: #bfbfbf solid 3px;
+	border-right: #cccccc solid 3px;
+	border-left: #d9d9d9 solid 3px;
+	
+	padding-left:18px;
+	padding-right:18px;
+	padding-top:1px;
+	padding-bottom:2px;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+}
