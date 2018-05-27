@@ -107,6 +107,7 @@ h1{
 	margin: auto;
 	text-align: center;
 	white-space: nowrap;
+	overflow: hidden;
 }
 
 footer{
@@ -176,8 +177,14 @@ footer{
 /****************************************************/
 
 .center{
-	width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
 	margin: auto;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 .box-1{
