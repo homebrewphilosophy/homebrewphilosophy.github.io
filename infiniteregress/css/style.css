@@ -57,7 +57,7 @@ body{
 body{
 	background-color:black;
 	background-image:
-	 linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(128,128,128,1) 100%),
+	linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(128,128,128,1) 100%),
 	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
 	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
 	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
@@ -119,15 +119,16 @@ footer{
 
 /****************************************************/
 
-.btn-group .left-border {
-	-webkit-mask-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255, 1));
+.btn-group .wrapper {
+	-webkit-mask-image: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255, 1) 15%, rgba(255,255,255, 1) 85%, rgba(255,255,255,0) 100%);
 	background-color: rgba(0,0,0,0.5);
 	border-top: #e6e6e6 solid 2px;
 	border-bottom: #bfbfbf solid 2px;
 	border-right: none;
 	border-left: none;
 	color: rgba(0,0,0,0);
-	padding: 8px 60px;
+	width: 800px;
+	height: 32px;
 	display: inline-block;
 	font-size: 16px;
 	font-family: "Bebas Neue", sans-serif;
@@ -135,13 +136,15 @@ footer{
 }
 
 .btn-group .button {
-	background-color: rgba(0,0,0,0.5);
-	border-top: #e6e6e6 solid 2px;
-	border-bottom: #bfbfbf solid 2px;
+	background-color: rgba(0,0,0,0);
+	border-top: none; /*#e6e6e6 solid 2px;*/
+	border-bottom: none; /*#bfbfbf solid 2px;*/
 	border-right: none;
 	border-left: none;
 	color: white;
-	padding: 8px 20px;
+	padding-left:32px;
+	padding-right:32px;
+	height: 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -153,25 +156,10 @@ footer{
 }
 
 .btn-group .button:hover {
-	background-color: rgba(10,10,0,0.5);
-	border-top: #e6e600 solid 2px;
-	border-bottom: #bfbf00 solid 2px;
+	background-color: rgba(255,255,0,0.1);
+	border-top: none; /*#e6e600 solid 2px;*/
+	border-bottom: none; /*#bfbf00 solid 2px;*/
 	color: yellow;
-}
-
-.btn-group .right-border {
-	-webkit-mask-image: -webkit-linear-gradient(right, rgba(255,255,255,0), rgba(255,255,255, 1));
-	background-color: rgba(0,0,0,0.5);
-	border-top: #e6e6e6 solid 2px;
-	border-bottom: #bfbfbf solid 2px;
-	border-right: none;
-	border-left: none;
-	color: rgba(0,0,0,0);
-	padding: 8px 60px;
-	display: inline-block;
-	font-size: 16px;
-	font-family: "Bebas Neue", sans-serif;
-	float: left;
 }
 
 /****************************************************/
@@ -179,12 +167,6 @@ footer{
 .center{
     display: flex;
     justify-content: center;
-}
-
-.row{
-	margin: auto;
-	white-space: nowrap;
-	overflow: hidden;
 }
 
 .box-1{
