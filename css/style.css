@@ -5,10 +5,6 @@
 			url('fonts/RobinsHand-Regular.ttf') format('truetype');
 }
 
-body {
-	background-color: #f1f1f1;
-}
-
 .sticky {
   display: block;
   background-color: #ffff99;
