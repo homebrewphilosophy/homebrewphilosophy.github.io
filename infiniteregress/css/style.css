@@ -45,6 +45,7 @@
 
 body{
 	background-image: url("images/tree.svg"), linear-gradient(0deg, black 0%, grey 100%);
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-attachment: fixed;
