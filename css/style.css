@@ -1,3 +1,5 @@
+/************** 404 ERROR **************/
+
 @font-face {
 	font-family: "Robins Hand";
 	src:	url('fonts/RobinsHand-Regular.woff') format('woff'),
@@ -24,4 +26,31 @@
   -o-transform: rotate(-6deg);
   -moz-transform: rotate(-6deg);
   transform: rotate(-6deg);
+}
+
+/************** BACKGROUND **************/
+
+body{
+	background-color: hsl(0, 60%, 30%);
+	background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(0, 90%, 75%, 0.5) 5px, hsla(0, 90%, 75%, 0.5) 10px,                  
+		hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+		hsla(0, 90%, 75%, 0.5) 40px, hsla(0, 90%, 75%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
+		hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(0, 85%, 40%, 0.5) 70px, hsla(0, 85%, 40%, 0.5) 80px,
+		hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+		hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(0, 90%, 75%, 0.5) 120px, hsla(0, 90%, 75%, 0.5) 140px       
+	  ),
+	repeating-linear-gradient(135deg, transparent 5px, hsla(0, 90%, 75%, 0.5) 5px, hsla(0, 90%, 75%, 0.5) 10px, 
+		hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+		hsla(0, 90%, 75%, 0.5) 40px, hsla(0, 90%, 75%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
+		hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(0, 85%, 40%, 0.5) 70px, hsla(0, 85%, 40%, 0.5) 80px,
+		hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+		hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(0, 90%, 75%, 0.5) 140px, hsla(0, 90%, 75%, 0.5) 160px
+	);
+	height: 100%; /*This stops working as soon as the page is smaller than the browser view...*/
+	
+	color: white;
+}
+
+html {
+  min-height: 100%; /*... Which this fixes.*/
 }
