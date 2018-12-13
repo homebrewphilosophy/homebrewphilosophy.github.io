@@ -30,7 +30,7 @@
 
 /************** BACKGROUND **************/
 
-body{
+body {
 	background-color: #562f17;
 	background-image: repeating-linear-gradient(45deg, transparent 5px, #d7ba8e80 5px, #d7ba8e80 10px,                  
 		hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, #d83c3380 35px, #d83c3380 40px,
@@ -52,5 +52,5 @@ body{
 }
 
 html {
-  min-height: 100%; /*... Which this fixes.*/
+	min-height: 100%; /*... Which this fixes.*/
 }
